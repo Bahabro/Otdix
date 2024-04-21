@@ -1,2 +1,0 @@
-# Otdix
-otdix i tur
