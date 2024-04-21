@@ -1,0 +1,214 @@
+
+    /* Общие стили для страницы */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/1092653747/thumb/1.jpg');
+    background-size: cover;
+}
+
+/* Стили для header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Стили для логотипа */
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Стили для вкладок */
+.tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs li {
+    margin-right: 20px;
+}
+
+.tabs li:last-child {
+    margin-right: 0;
+}
+
+.tabs li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.tabs li a:hover {
+    color: #666;
+}
+
+/* Стили для контактной информации */
+.contact-info {
+    text-align: right;
+    color: #000000;
+}
+
+/* Стили для раздела новостей */
+.news {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Стили для заголовка новостей */
+.news-heading {
+    margin-bottom: 20px;
+}
+
+/* Стили для контейнера новостей */
+.news-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+/* Стили для отдельной новости */
+.news-container article {
+    margin-bottom: 20px;
+}
+
+.news-container article h2 {
+    margin-top: 0;
+}
+
+.news-container article p {
+    color: #666;
+}
+.gallery {
+    text-align: center;
+    position: relative;
+}
+
+.gallery h2 {
+    margin-bottom: 10px;
+}
+
+.gallery button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px; /* Уменьшаем размер шрифта стрелок */
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px; /* Добавляем немного отступа для кнопок */
+}
+
+.prev {
+    left: 20px; /* Приближаем левую кнопку */
+}
+
+.next {
+    right: 20px; /* Приближаем правую кнопку */
+}
+
+.gallery {
+    text-align: center;
+    position: relative;
+}
+
+.gallery h2 {
+    margin-bottom: 10px;
+}
+
+.gallery button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+}
+
+.prev {
+    left: 350px; /* Положение кнопки "назад" относительно списка изображений */
+}
+
+.next {
+    right: 350px; /* Положение кнопки "вперёд" относительно списка изображений */
+}
+
+.gallery ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery li {
+    margin: 10px;
+}
+
+.gallery img {
+    width: 650px;
+    height: auto;
+}
+.blog {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(200, 200, 200, 0.5); /* Чуть прозрачный серый фон */
+    border-radius: 10px; /* Закруглим углы блока */
+}
+
+.blog h2 {
+    text-align: center;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.blog-post h3 {
+    margin-top: 0;
+}
+
+.blog-post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+.additional-content {
+    display: none; /* Скрытый по умолчанию */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный белый фон */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    color: #333; /* Цвет текста */
+}
